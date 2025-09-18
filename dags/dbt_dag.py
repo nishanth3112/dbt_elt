@@ -10,7 +10,7 @@ profile_config = ProfileConfig(
     target_name="dev",
     profile_mapping=SnowflakeUserPasswordProfileMapping(
         conn_id="snowflake_conn",
-        profile_args={"database":"dbt_db","schema":"dbt_schema","account":"vzc06137.us-east-1"},
+        profile_args={"database":"dbt_db","schema":"dbt_schema","account":"oec43416.us-east-1"},
     )
 )
 
