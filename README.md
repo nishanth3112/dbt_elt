@@ -14,7 +14,8 @@ The pipeline extracts data from Snowflake’s sample `TPCH` dataset, transforms 
 
 ### High-level Architecture
 
-![ELT Architecture]('/Users/nishanthmano3112/Desktop/Self Driven Projects/DBT - ETL arc.png')
+<img width="1225" height="388" alt="DBT - ETL arc" src="https://github.com/user-attachments/assets/672c49fa-b561-4674-afdc-a202fc2c5910" />
+
 
 ---
 
