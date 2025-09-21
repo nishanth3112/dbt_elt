@@ -14,18 +14,7 @@ The pipeline extracts data from Snowflake’s sample `TPCH` dataset, transforms 
 
 ### High-level Architecture
 
-```mermaid
-flowchart LR
-    A[Snowflake TPCH Source Tables] --> B[dbt Staging Models]
-    B --> C[dbt Intermediate Models]
-    C --> D[dbt Fact Models]
-    D --> E[Analytics / BI Layer]
-    subgraph Orchestration
-        F[Airflow DAG] --> B
-        F --> C
-        F --> D
-    end
-```
+![ELT Architecture]('/Users/nishanthmano3112/Desktop/Self Driven Projects/DBT - ETL arc.png')
 
 ---
 
